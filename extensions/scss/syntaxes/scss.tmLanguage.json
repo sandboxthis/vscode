@@ -1278,7 +1278,10 @@
 				},
 				{
 					"include": "#operators"
-				},
+        },
+        {
+          "include": "$self"
+        },
 				{
 					"begin": "\\(",
 					"beginCaptures": {
